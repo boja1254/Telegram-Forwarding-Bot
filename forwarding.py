@@ -5,10 +5,10 @@ from dotenv import load_dotenv
 from telethon import TelegramClient, events
 
 load_dotenv()
-API_ID = int(os.getenv('API_ID'))
-API_HASH = os.getenv('API_HASH')
-BOT_TOKEN = os.getenv('BOT_TOKEN')
-ADMIN_TG_ID = int(os.getenv('ADMIN_TG_ID'))
+API_ID = int(os.getenv('30157302'))
+API_HASH = os.getenv('0052039fb2fca727868d0228cdaad569')
+BOT_TOKEN = os.getenv('8548114461:AAHPh6ko0lx2iP4uXEiKoZ_mRZv9-UU7_vw')
+ADMIN_TG_ID = int(os.getenv('8255552078'))
 SESSION_NAME = 'user_session'
 CONFIG_FILE = 'config.json'
 
